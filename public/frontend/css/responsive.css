@@ -1,0 +1,35 @@
+@media all and (max-width: 1200px) {}
+
+@media all and (max-width: 1080px) {}
+
+
+@media all and (max-width: 992px) {
+    .sub-cat{
+        position: inherit;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .whl-txt {
+            text-align: left;
+        }
+    .wh-left{
+        margin-top: 15px;
+    }
+    .whl-img img{
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .slider-section .carousel-item{
+        height: 220px;
+    }
+}
+
+
+@media all and (max-width: 480px) {}
+
+@media all and (max-width: 360px) {}

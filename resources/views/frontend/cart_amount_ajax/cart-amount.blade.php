@@ -1,0 +1,1 @@
+ ৳ {{ Cart::subtotal() }}

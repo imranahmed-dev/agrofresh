@@ -1,0 +1,273 @@
+        .sub-cat {
+            position: absolute;
+            left: 100%;
+            top: 0;
+            height: 100%;
+            width: 300px;
+            z-index: 99;
+            background: #fdfdfd;
+            display: none;
+            border: 1px solid #ddd;
+            box-shadow: 0px 10px 20px -10px #ddd;
+            transition: .3s;
+
+        }
+
+        .sub-cat a {}
+
+        .sub-cat a:first-child {
+            background: #7FAD39;
+            color: #fff;
+            padding-top: 4px;
+            padding-bottom: 3px;
+            font-weight: bold;
+        }
+
+        .hero__categories {
+            position: relative;
+        }
+
+        .subcat-btn:hover .sub-cat {
+            display: block;
+        }
+
+        .whl-txt {
+            text-align: right;
+        }
+
+        .whl-txt h5 {
+            color: #fff;
+            font-size: 20px;
+        }
+
+        .whl-txt p {
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .whl-txt-left {
+            text-align: left;
+        }
+
+        /********************** **************************
+				customer dashboard styles
+*********************** *************************/
+        .customer-dashboard-breadcrumb {
+            background: #fcfcfc;
+        }
+
+        .customer-dashboard {
+            background: #fcfcfc;
+            padding-bottom: 100px;
+        }
+
+        .dashboard-box {
+            color: #fff;
+        }
+
+        .cd-customer-name {
+            margin-bottom: 20px;
+            border-bottom: 1.5px solid #ddd;
+        }
+
+        .cd-customer-name h3 {
+            font-size: 30px;
+        }
+
+        .cd-customer-name span {
+            color: gray;
+            font-size: 19px;
+        }
+
+        .customer-menu-header {
+            border-bottom: 3px solid #f1f1f1;
+        }
+
+        .customer-menu-header h4 {
+            font-size: 20px;
+        }
+
+        .customer-dashboard-menu ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+        }
+
+        .customer-menu-active {
+            background: #ddd !important;
+            font-weight: 600 !important;
+            color: #333 !important;
+        }
+
+        .customer-dashboard-menu ul li a {
+            text-decoration: none;
+            padding: 8px 20px;
+            display: block;
+            color: #222;
+            font-weight: 500;
+            transition: .2s;
+            border-radius: 2px;
+            font-size: 15px;
+        }
+
+        .customer-dashboard-menu ul li a:hover {
+            background: #ddd;
+        }
+
+        .customer-dashboard-menu ul li {
+
+            border-bottom: 1px solid #ddd;
+
+
+        }
+
+        .customer-dashboard-menu ul li:last-child {
+            border-bottom: 0;
+        }
+
+        .dashbox-txt span {
+            font-size: 27px;
+            font-weight: 500;
+            margin-bottom: 7px;
+            display: block;
+        }
+
+        .dashbox-txt {
+            padding: 10px 15px;
+        }
+
+        .dashbox-txt p {
+            font-weight: 500;
+            margin-bottom: 0;
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .dashboard-box a {
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            background: #0000001f;
+            padding: 2px;
+        }
+
+        .customer-dashboard-body .col-md-3 {
+            padding: 0 7px;
+        }
+
+        /*START REGISTATION PAGE*/
+
+        .regi-page {
+            background: #fdfdfd;
+        }
+
+        .regi-page input,
+        .regi-page textarea,
+        .regi-page select {
+            margin-bottom: 10px;
+        }
+
+
+        .regi-page-box {
+            padding: 30px;
+            border: 1px solid #e3e3e3;
+            background: #fdfdfd;
+            border-radius: 3px;
+        }
+
+        .regi-page-form h4 {
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .regi-form-title h3 {
+            border-bottom: 1px solid #999;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        /*Login page*/
+
+        .login-page {
+            background: #fdfdfd;
+
+        }
+
+
+        .login-page-form {
+            margin: 0 auto;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            background: #fff;
+        }
+
+        .login-page-title h3 {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 3px;
+        }
+
+        .login-page-suggest-regi a {
+            color: #333;
+        }
+
+
+        .login-form-title h4 {
+            border-bottom: 1px solid #999;
+            padding-bottom: 5px;
+            text-transform: capitalize;
+            font-size: 23px;
+            font-weight: 600;
+            color: #444;
+        }
+
+
+.slider-section .carousel-item{
+    height: 400px;
+}
+.slider-section .carousel-item img{
+    height: 100%;
+}
+.slider-section .carousel-caption{
+    text-align: left;
+    width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider-section .carousel-caption h5{
+    color: #fff;
+    font-size: 30px;
+}
+.slider-section .carousel-caption p{
+    color: #fff;
+}
+.slider-section .carousel-caption a{
+    color: #fff;
+    padding: 8px 20px;
+    background: green;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
